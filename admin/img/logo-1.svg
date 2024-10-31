@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="28px" viewBox="0 0 25 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo (1)</title>
+    <g id="New-Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav-(Open-/-Closed)" transform="translate(-563.000000, -103.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(535.000000, 77.000000)">
+                <g id="Logo" transform="translate(28.000000, 26.000000)">
+                    <polygon id="Path" fill="#0CADF4" points="0 6.969375 0 20.899375 2.415 22.290625 4.825625 20.899375 4.825625 23.681875 7.240625 25.0775 9.65125 23.681875 9.65125 26.46875 12.06625 27.86 12.06625 13.934375"></polygon>
+                    <polygon id="Path" fill="#086A96" points="7.240625 13.93875 7.240625 25.0775 9.65125 23.681875 9.65125 15.33"></polygon>
+                    <polygon id="Path" fill="#086A96" points="2.415 11.1475 2.415 22.290625 4.825625 20.899375 4.825625 12.53875"></polygon>
+                    <polygon id="Path" fill="#086A96" points="12.06625 27.86 24.128125 20.895 24.128125 18.1125 21.713125 16.716875 24.128125 15.32125 24.128125 12.53875 21.713125 11.143125 24.128125 9.751875 24.128125 6.965 12.06625 13.93"></polygon>
+                    <polygon id="Path" fill="#099CEA" points="14.48125 18.108125 24.128125 12.53875 21.713125 11.143125 14.48125 15.32125"></polygon>
+                    <polygon id="Path" fill="#099CEA" points="14.476875 23.681875 24.128125 18.1125 21.713125 16.716875 14.476875 20.895"></polygon>
+                    <polygon id="Path" fill="#099CEA" points="24.128125 6.965 12.061875 0 9.65125 1.395625 9.65125 4.178125 7.23625 2.786875 4.825625 4.178125 4.825625 6.965 2.415 5.57375 0 6.965 12.061875 13.93"></polygon>
+                    <polygon id="Path" fill="#0CADF4" points="14.4725 9.7475 4.825625 4.178125 4.825625 6.965 12.0575 11.143125"></polygon>
+                    <polygon id="Path" fill="#0CADF4" points="19.3025 6.965 9.65125 1.395625 9.65125 4.178125 16.891875 8.360625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

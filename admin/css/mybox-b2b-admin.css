@@ -1,0 +1,122 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.loading-holder {
+	left: -5px;
+	right: 0;
+	top: 0;
+	bottom: -10px;
+	position: absolute;
+	background: rgba(241, 241, 241, 0.75);
+}
+.loading-holder .loading-icon {
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+
+	margin: 100px auto;
+	-webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+	animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+	0% {
+		-webkit-transform: perspective(120px);
+	}
+	50% {
+		-webkit-transform: perspective(120px) rotateY(180deg);
+	}
+	100% {
+		-webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+	}
+}
+
+@keyframes sk-rotateplane {
+	0% {
+		transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+		-webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+	}
+	50% {
+		transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+		-webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+	}
+	100% {
+		transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+		-webkit-transform: perspective(120px) rotateX(-180deg)
+			rotateY(-179.9deg);
+	}
+}
+
+.brc-holder-table {
+	width: 100%;
+	height: auto;
+}
+
+#the-list tr td {
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+#the-list tr td p {
+	margin: 0px;
+}
+#the-list tr td .row-title {
+	cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 10000; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: 70px auto;
+	padding: 20px 20px 60px 20px;
+	width: 800px;
+	max-width: 90%;
+	border-radius: 4px;
+}
+
+.modal-content-item {
+	display: inline-block;
+	width: 50%;
+}
+.modal-content-item h4 {
+	margin-bottom: 10px;
+}
+.modal-content-item p {
+	margin: 0px 40px 10px 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgray;
+}
+.modal-content-item p,
+.modal-content-item h4 {
+	text-transform: capitalize;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
